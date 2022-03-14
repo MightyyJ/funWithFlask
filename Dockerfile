@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-RUN sudo apt-get update -y && apt-get install -y python-pip python-dev
+RUN apt-get update -y && apt-get install -y python-pip python-dev
 
 COPY ./requirements.txt /app/requirements.txt
 
